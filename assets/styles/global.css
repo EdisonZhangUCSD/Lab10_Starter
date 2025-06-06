@@ -114,3 +114,17 @@ main>section {
   grid-template-areas: 'slider icon';
   grid-template-columns: 80% 15%;
 }
+
+/* Green button variant for A/B testing on speechSynth page */
+body.green-button #explore button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+body.green-button #explore button:hover {
+  background-color: #45a049;
+}
